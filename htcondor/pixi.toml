@@ -7,10 +7,11 @@ version = "0.1.0"
 [tasks]
 
 [dependencies]
+python = ">=3.13,<3.14"
 
 [feature.cpu.dependencies]
-pytorch-cpu = ">=1.1.0,<3"
-torchvision = ">=0.10.1,<0.23"
+pytorch-cpu = ">=2.7.0,<3"
+torchvision = ">=0.22.0,<0.23"
 
 [feature.gpu.system-requirements]
 cuda = "12"
